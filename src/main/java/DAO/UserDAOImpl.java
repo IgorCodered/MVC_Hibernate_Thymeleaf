@@ -14,4 +14,9 @@ public class UserDAOImpl implements UserDAO{
     public void updateUser(Long id) {
 
     }
+
+    @Override
+    public void deleteUser(Long id) {
+
+    }
 }

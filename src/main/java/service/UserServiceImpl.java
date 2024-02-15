@@ -2,10 +2,7 @@ package service;
 
 import DAO.UserDAO;
 import lombok.AllArgsConstructor;
-import model.User;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 @AllArgsConstructor
@@ -20,5 +17,10 @@ public class UserServiceImpl implements UserService{
     @Override
     public void updateUser(Long id) {
         repository.updateUser(id);
+    }
+
+    @Override
+    public void deleteUser(Long id) {
+        repository.deleteUser(id);
     }
 }
