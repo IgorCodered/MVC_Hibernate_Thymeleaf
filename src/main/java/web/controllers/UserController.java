@@ -1,15 +1,18 @@
-package controllers;
+package web.controllers;
 
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
-import service.UserService;
+import web.service.UserService;
+
 
 @Controller
 @AllArgsConstructor
 public class UserController {
 
+    @Autowired
     private final UserService service;
 
     @GetMapping("/user")

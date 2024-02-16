@@ -1,6 +1,6 @@
-package service;
+package web.service;
 
-import DAO.UserDAO;
+import web.DAO.UserDAO;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
