@@ -1,7 +1,9 @@
 package web.DAO;
 
+import web.model.User;
+
 public interface UserDAO {
-    void addUser(String name, String lastName, String email);
+    void addUser(User user);
     void updateUser(Long id);
     void deleteUser(Long id);
 }

@@ -1,7 +1,9 @@
 package web.service;
 
+import web.model.User;
+
 public interface UserService {
-    void addUser(String name, String lastname, String email);
+    void addUser(User user);
     void updateUser(Long id);
     void deleteUser(Long id);
 }

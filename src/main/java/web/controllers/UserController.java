@@ -12,7 +12,6 @@ import web.service.UserService;
 @AllArgsConstructor
 public class UserController {
 
-    @Autowired
     private final UserService service;
 
     @GetMapping("/user")

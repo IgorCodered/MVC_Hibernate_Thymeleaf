@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf791b4f-7989-436b-88fc-8a7110db8287" name="Changes" comment="Добавлен метод deleteUser">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="bf791b4f-7989-436b-88fc-8a7110db8287" name="Changes" comment="Настроен файл persistance.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +206,7 @@
       <workItem from="1708056149184" duration="4770000" />
       <workItem from="1708072593478" duration="2103000" />
       <workItem from="1708075515862" duration="1050000" />
-      <workItem from="1708156738119" duration="1822000" />
+      <workItem from="1708156738119" duration="4271000" />
     </task>
     <task id="LOCAL-00001" summary="Все основные классы созданы">
       <created>1707997709796</created>
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708000573368</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Настроен файл persistance.xml">
+      <created>1708159114753</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708159114753</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +280,7 @@
     <MESSAGE value="Обновленный gitignore" />
     <MESSAGE value="Добавлены все базовые методы" />
     <MESSAGE value="Добавлен метод deleteUser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен метод deleteUser" />
+    <MESSAGE value="Настроен файл persistance.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настроен файл persistance.xml" />
   </component>
 </project>
