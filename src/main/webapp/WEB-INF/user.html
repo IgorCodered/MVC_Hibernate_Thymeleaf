@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Привет</title>
-<h1>Здарова!!!!!!!!!!!!</h1>
+    <h1>Все пользователи</h1>
 </head>
-    <th:block th:text="привет">
-
-    </th:block>
 <body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="Пользователи : ${users}">
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.surname}"></td>
+        <td th:text="${user.email}"></td>
+    </tr>
+    </tbody>
+</table>
 
 </body>
 </html>

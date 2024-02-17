@@ -16,6 +16,7 @@ public class UserController {
 
     @GetMapping("/user")
     public String allUser(ModelMap map) {
+        map.addAttribute("users", service.getAllUsers());
         return "user";
     }
 }
