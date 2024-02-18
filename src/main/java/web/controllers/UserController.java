@@ -27,6 +27,10 @@ public class UserController {
         return "user";
     }
 
+    @GetMapping("/users/createUser")
+    public String createPages() {
+        return "createUser";
+    }
 
     @PostMapping("/users/create")
     public String createUser(ModelMap model) {
