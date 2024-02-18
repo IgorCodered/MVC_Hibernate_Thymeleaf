@@ -9,15 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf791b4f-7989-436b-88fc-8a7110db8287" name="Changes" comment="Реализована настройка через Java Class entitymanager">
+    <list default="true" id="bf791b4f-7989-436b-88fc-8a7110db8287" name="Changes" comment="Настроены конфиги, реализованы методы, все работает">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/createUser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.83" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8086/user" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8086/users" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="hiber_mvc:war exploded">
@@ -211,7 +211,12 @@
       <workItem from="1708056149184" duration="4770000" />
       <workItem from="1708072593478" duration="2103000" />
       <workItem from="1708075515862" duration="1050000" />
-      <workItem from="1708156738119" duration="6937000" />
+      <workItem from="1708156738119" duration="7253000" />
+      <workItem from="1708168026124" duration="2826000" />
+      <workItem from="1708173622569" duration="8539000" />
+      <workItem from="1708239065872" duration="1048000" />
+      <workItem from="1708240827823" duration="4679000" />
+      <workItem from="1708249150255" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="Все основные классы созданы">
       <created>1707997709796</created>
@@ -269,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708161350226</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Настроены конфиги, реализованы методы, все работает">
+      <created>1708164109193</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708164109193</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +306,7 @@
     <MESSAGE value="Добавлен метод deleteUser" />
     <MESSAGE value="Настроен файл persistance.xml" />
     <MESSAGE value="Реализована настройка через Java Class entitymanager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализована настройка через Java Class entitymanager" />
+    <MESSAGE value="Настроены конфиги, реализованы методы, все работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настроены конфиги, реализованы методы, все работает" />
   </component>
 </project>
