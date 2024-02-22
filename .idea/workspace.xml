@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf791b4f-7989-436b-88fc-8a7110db8287" name="Changes" comment="Добавлен переход со страницы всех пользователей на страницу создания пользователя&#10;Добавлен контроллер на страницу создания пользователя">
+    <list default="true" id="bf791b4f-7989-436b-88fc-8a7110db8287" name="Changes" comment="createUser.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/createUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/createUser.html" afterDir="false" />
     </list>
@@ -214,6 +213,9 @@
       <workItem from="1708240827823" duration="4679000" />
       <workItem from="1708249150255" duration="3034000" />
       <workItem from="1708252458448" duration="1677000" />
+      <workItem from="1708276083542" duration="1079000" />
+      <workItem from="1708277326063" duration="698000" />
+      <workItem from="1708607019360" duration="2981000" />
     </task>
     <task id="LOCAL-00001" summary="Все основные классы созданы">
       <created>1707997709796</created>
@@ -292,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708249980235</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="createUser.html">
+      <created>1708276134621</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708276134622</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +329,7 @@
     <MESSAGE value="Настроены конфиги, реализованы методы, все работает" />
     <MESSAGE value="Выводятся все пользователи" />
     <MESSAGE value="Добавлен переход со страницы всех пользователей на страницу создания пользователя&#10;Добавлен контроллер на страницу создания пользователя" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен переход со страницы всех пользователей на страницу создания пользователя&#10;Добавлен контроллер на страницу создания пользователя" />
+    <MESSAGE value="createUser.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="createUser.html" />
   </component>
 </project>
