@@ -8,6 +8,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import web.model.User;
 import web.service.UserService;
 
@@ -28,17 +29,31 @@ public class UserController {
         return "user";
     }
 
-    @GetMapping("/users/createUser")
+    @GetMapping("/new")
     public String createPages(ModelMap map) {
         User user = new User();
         map.addAttribute("user", user);
         return "createUser";
     }
 
-    @PostMapping("/users/create")
+    @PostMapping("/create")
     public String createUser(@ModelAttribute("user") @Valid User user, BindingResult result) {
         if (result.hasErrors()) return "createUser";
         service.addUser(user);
+        return "redirect:/users";
+    }
+
+    @GetMapping("/edit")
+    public String editUser(ModelMap map) {
+        User user = new User();
+        map.addAttribute("person", user);
+        return "editUser";
+    }
+
+    @PostMapping("/update")
+    public String edit(@ModelAttribute("user") @Valid User user, BindingResult result) {
+        if (result.hasErrors()) return "editUser";
+        service.updateUser(user);
         return "redirect:/users";
     }
 }

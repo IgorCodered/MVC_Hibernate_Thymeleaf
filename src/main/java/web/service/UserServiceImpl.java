@@ -21,8 +21,11 @@ public class UserServiceImpl implements UserService{
 
     @Override
     @Transactional
-    public void updateUser(Long id) {
-        repository.updateUser(id);
+    public void updateUser(User updatedUser) {
+        User userToBeUpdated = repository.findUser(updatedUser.getId());
+        userToBeUpdated.setName(updatedUser.getName());
+        userToBeUpdated.setSurname(updatedUser.getSurname());
+        userToBeUpdated.setEmail(updatedUser.getEmail());
     }
 
     @Override

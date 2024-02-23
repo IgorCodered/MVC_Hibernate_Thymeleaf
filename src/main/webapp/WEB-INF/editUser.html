@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Создание пользователя</title>
+    <title>Изменение пользователя</title>
 </head>
 <body>
 <div>
-    <h2>Введите данные для регистрации пользователя</h2>
-    <form th:method="POST" th:action="@{/create}" th:object="${user}">
+    <h2>Заполните поля которые нужно изменить</h2>
+    <form th:method="POST" th:action="@{/users/edit}" th:object="${user}">
 
         <label for="name">Имя: </label>
         <input type="text" th:field="${user.name}" id="name"/>
@@ -22,8 +22,9 @@
         <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></div>
         <br>
 
-        <input type="submit" value="Создать">
+        <input type="submit" value="Изменить">
     </form>
 </div>
+
 </body>
 </html>

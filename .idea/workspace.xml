@@ -9,10 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf791b4f-7989-436b-88fc-8a7110db8287" name="Changes" comment="createUser.html">
+    <list default="true" id="bf791b4f-7989-436b-88fc-8a7110db8287" name="Changes" comment="Исправлен код в отображении">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/editUser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/createUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/createUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +62,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Игорь Елесин/Desktop/Pre project/hiber_mvc/src/main/controllers&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Игорь Елесин/Desktop/Pre project/hiber_mvc&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.21159154&quot;,
@@ -215,7 +222,10 @@
       <workItem from="1708252458448" duration="1677000" />
       <workItem from="1708276083542" duration="1079000" />
       <workItem from="1708277326063" duration="698000" />
-      <workItem from="1708607019360" duration="2981000" />
+      <workItem from="1708607019360" duration="3846000" />
+      <workItem from="1708665380354" duration="410000" />
+      <workItem from="1708669508625" duration="3680000" />
+      <workItem from="1708676017270" duration="1938000" />
     </task>
     <task id="LOCAL-00001" summary="Все основные классы созданы">
       <created>1707997709796</created>
@@ -301,7 +311,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708276134622</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Исправлено отображение">
+      <created>1708612354093</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708612354093</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Исправлен код в отображении">
+      <created>1708665710393</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708665710393</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +354,8 @@
     <MESSAGE value="Выводятся все пользователи" />
     <MESSAGE value="Добавлен переход со страницы всех пользователей на страницу создания пользователя&#10;Добавлен контроллер на страницу создания пользователя" />
     <MESSAGE value="createUser.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="createUser.html" />
+    <MESSAGE value="Исправлено отображение" />
+    <MESSAGE value="Исправлен код в отображении" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлен код в отображении" />
   </component>
 </project>
