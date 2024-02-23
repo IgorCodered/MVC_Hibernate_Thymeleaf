@@ -19,7 +19,8 @@ import javax.validation.constraints.Size;
 @AllArgsConstructor
 public class User {
 
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Size(min = 2, max = 30, message = "Введите минимум 2 буквы и не более 30")

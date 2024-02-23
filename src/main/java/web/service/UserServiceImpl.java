@@ -1,18 +1,19 @@
 package web.service;
 
-import org.springframework.transaction.annotation.Transactional;
-import web.DAO.UserDAO;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import web.DAO.UserDAO;
 import web.model.User;
 
 import java.util.List;
 
 @Service
 @AllArgsConstructor
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
     private final UserDAO repository;
+
     @Override
     @Transactional
     public void addUser(User user) {
