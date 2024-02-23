@@ -10,7 +10,7 @@ import java.util.List;
 
 @Repository
 @AllArgsConstructor
-public class UserDAOImpl implements UserDAO{
+public class UserDAOImpl implements UserDAO {
 
     @PersistenceContext
     private final EntityManager manager;
@@ -20,10 +20,6 @@ public class UserDAOImpl implements UserDAO{
         manager.persist(user);
     }
 
-    @Override
-    public void updateUser(User user) {
-
-    }
 
     @Override
     public void deleteUser(Long id) {

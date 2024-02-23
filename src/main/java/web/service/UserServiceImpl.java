@@ -23,6 +23,7 @@ public class UserServiceImpl implements UserService{
     @Transactional
     public void updateUser(User updatedUser) {
         User userToBeUpdated = repository.findUser(updatedUser.getId());
+        userToBeUpdated.setId(updatedUser.getId()); //todo возможно удалить тестовый варинт пробуем
         userToBeUpdated.setName(updatedUser.getName());
         userToBeUpdated.setSurname(updatedUser.getSurname());
         userToBeUpdated.setEmail(updatedUser.getEmail());

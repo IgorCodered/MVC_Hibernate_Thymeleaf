@@ -44,9 +44,8 @@ public class UserController {
     }
 
     @GetMapping("/edit")
-    public String editUser(ModelMap map) {
-        User user = new User();
-        map.addAttribute("person", user);
+    public String editUser(@RequestParam("id") Long id, ModelMap map) {
+        map.addAttribute("user", service.findUser(id));
         return "editUser";
     }
 
@@ -54,6 +53,12 @@ public class UserController {
     public String edit(@ModelAttribute("user") @Valid User user, BindingResult result) {
         if (result.hasErrors()) return "editUser";
         service.updateUser(user);
+        return "redirect:/users";
+    }
+
+    @GetMapping("/delete")
+    public String delete(@RequestParam("id") Long id) {
+        service.deleteUser(id);
         return "redirect:/users";
     }
 }

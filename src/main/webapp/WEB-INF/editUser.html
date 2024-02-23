@@ -7,8 +7,8 @@
 <body>
 <div>
     <h2>Заполните поля которые нужно изменить</h2>
-    <form th:method="POST" th:action="@{/users/edit}" th:object="${user}">
-
+    <form th:method="POST" th:action="@{/update}" th:object="${user}">
+        <input type="hidden" th:field="*{id}"/>
         <label for="name">Имя: </label>
         <input type="text" th:field="${user.name}" id="name"/>
         <div style="color:red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></div>
